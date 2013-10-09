@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:500);
+/* GLOBAL */
+html {
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+hr {
+	border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+header, nav, article, footer, address {   
+    display: block;   
+}       
+/* HEADINGS */
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Georgia", Times, serif;
+	font-weight: 200;
+}
+h1 {
+	font-size: 32px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 26px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 16px;
+}
+
+/* TEXT */
+p {
+	font-size: 16px;
+}
+.lead {
+	font-size: 22px;
+	margin-bottom: 20px;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 1.4;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+em, i {
+	font-style: italic;
+}
+strong, b {
+	font-weight: bold;
+}
+a {
+	text-decoration: none;
+	color: #e67e22;
+	border-bottom: 0px solid;
+	transition: all 1s;
+	-webkit-transition: all 1s;
+}
+a:hover {
+	border-bottom: 1px solid;
+	color: #d35400;
+}
+.centered {
+	text-align: center;
+}
+
+/* LISTS */
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+ul {
+	list-style-type: circle;
+}
+ol {
+	list-style-type: decimal;
+}
+/* CODE */
+code, pre {
+	font-family: "Source Code Pro", monospace;
+	font-weight: 500;
+	color: #2980b9;
+}
+/* COLOR */
+.text-blue {
+     color: #2980b9;
+}
+.text-red {
+     color: #c0392b;
+}
+.text-green {
+     color: #27ae60;
+}
+.text-orange {
+     color: #f39c12;
+}
+.text-carrot {
+     color: #e67e22;
+}
+
+/* BUTTONS */
+.btn {
+     color: black;
+     background-color: white;
+     padding: 4px;
+     border: 2px solid black;
+     transition: all 2s;
+     -webkit-transition: all 2s;
+     font-size: 20px;
+}
+.btn:hover {
+     color: white;
+     background-color: black;
+}
+.btn-white {
+	color: white;
+	background-color: black;
+}
+.btn-white:hover {
+	color: black;
+	background-color: white;
+}
+.btn-blue {
+	color: #2980b9;
+	border-color: #2980b9;
+}
+.btn-blue:hover {
+	color: white;
+	background-color: #2980b9;
+}
+.btn-red {
+	color: #c0392b;
+	border-color: #c0392b;
+}
+.btn-red:hover {
+	color: white;
+	background-color: #c0392b;
+}
+.btn-green {
+	color: #27ae60;
+	border-color: #27ae60;
+}
+.btn-green:hover {
+	color: white;
+	background-color: #27ae60;
+}
+.btn-orange {
+	color: #f39c12;
+	border-color: #f39c12;
+}
+.btn-orange:hover {
+	color: white;
+	background-color: #f39c12;
+}
+.btn-carrot {
+	color: #e67e22;
+	border-color: #e67e22;
+}
+.btn-carrot:hover {
+	color: white;
+	background-color: #e67e22;
+}
+
+/* IMAGES */
+.rounded {
+	border-radius: 7px;
+}
+.border {
+	border: 2px solid black;
+}
