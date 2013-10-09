@@ -8,3 +8,5 @@ Formal.css is a CSS web template for use with your html for simple and beautiful
 - Classes like .lead and .centered
 - Tested to work across all platforms (IE requires html shiv)
 
+[Preview formal.css](http://owebboy.net/formal/)
+
